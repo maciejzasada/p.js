@@ -1,0 +1,40 @@
+{
+  "name": "p.js",
+  "version": "0.0.1",
+  "description": "POOF.js optimizer",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maciejzasada/p.js.git"
+  },
+  "keywords": [
+    "POOF.js",
+    "optimizer",
+    "uglify",
+    "import",
+    "concatenate",
+    "javascript",
+    "module",
+    "framework"
+  ],
+  "author": {
+    "name": "Maciej Zasada",
+    "email": "hello@maciejzasada.com",
+    "url": "http://www.maciejzasada.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maciejzasada/p.js/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.16.1"
+  },
+  "dependencies": {
+    "uglify-js": "~2.4.8",
+    "optimist": "~0.6.0",
+    "mkdirp": "~0.3.5"
+  }
+}
